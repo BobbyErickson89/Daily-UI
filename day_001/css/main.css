@@ -1,0 +1,28 @@
+body {
+  background-color: #6BEED7;
+}
+
+#login-form {
+  background-color: white;
+  width: 35%;
+  height: 30em;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.input-holder {
+  padding-top: 8em;
+}
+
+.input-holder input {
+  display: block;
+  margin: auto;
+}
+
+.input-holder input[type=text] {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 3em;
+  width: 70%;
+  font-size: 1em;
+}
