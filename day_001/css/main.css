@@ -1,28 +1,60 @@
 body {
   background-color: #6BEED7;
+  font-family: sans-serif;
+  color: #444;
 }
 
-#login-form {
+input:focus {
+  outline: none;
+}
+
+#login-container {
   background-color: white;
   width: 35%;
   height: 30em;
   margin: auto;
   margin-top: 3em;
+  box-shadow: 2px 2px 4px 1px gray;
+  border-radius: 3%;
+}
+
+#login-header {
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 1.5em;
 }
 
 .input-holder {
-  padding-top: 8em;
+  padding-top: 4em;
 }
 
 .input-holder input {
   display: block;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.input-holder input[type=text] {
+.login-input {
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
   margin-bottom: 3em;
   width: 70%;
   font-size: 1em;
+}
+
+.input-holder input[type=button] {
+  width: 225px;
+  height: 40px;
+  background: white;
+  color: #ED2855;
+  font-size: 1em;
+  border: 2px solid #ED2855;
+}
+
+.input-holder input[type=button]:hover {
+  cursor: pointer;
+}
+
+.login-input:focus {
+  border-bottom: 2px solid #ED2855;
 }
