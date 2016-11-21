@@ -1,16 +1,66 @@
 body {
   background-color: #4AB8EB;
+  font-family: sans-serif;
+}
+
+input {
+  height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 1em;
 }
 
 #credit-card-container {
-  border: 1px solid black;
   background-color: white;
-  width: 50em;
+  width: 30em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em;
+  overflow: hidden;
 }
 
-#credit-card-container input {
+#credit-card-container h2 {
+  background-color: #2C4059;
+  color: #3E88AF;
+  font-weight: lighter;
+  margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.full-input, .submit-button {
   display: block;
+}
+
+.full-input {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#half-input-container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cvc-input {
+  float: right;
+}
+
+.half-input {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border: none;
+  background-color: #ED4151;
+  color: white;
 }

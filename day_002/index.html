@@ -7,12 +7,15 @@
   </head>
   <body>
     <form id="credit-card-container">
-      <h2>Enter Credit Card Info</h2>
-      <input type="text" name="cardholder_name" placeholder="Name on Card"/>
-      <input type="text" name="cardnumber" placeholder="Credit Card Number"/>
-      <input type="text" name="exp_date" placeholder="Exp Date"/>
-      <input type="text" name="cvc" placeholder="CVC"/>
-      <input type="button" value="Submit" />
+      <h2>Checkout</h2>
+      <input class="full-input" type="text" name="cardholder_name" placeholder="Name on Card"/>
+      <input class="full-input" type="text" name="cardnumber" placeholder="Credit Card Number"/>
+      <div id="half-input-container">
+        <input class="half-input" type="text" name="exp_date" placeholder="Exp Date"/>
+        <input class="half-input" id="cvc-input" type="text" name="cvc" placeholder="CVC"/>
+      </div>
+
+      <input class="submit-button" type="button" value="Submit" />
     </form>
   </body>
 </html>
