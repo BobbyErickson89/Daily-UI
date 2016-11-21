@@ -8,13 +8,20 @@
   <body>
     <form id="credit-card-container">
       <h2>Checkout</h2>
-      <input class="full-input" type="text" name="cardholder_name" placeholder="Name on Card"/>
-      <input class="full-input" type="text" name="cardnumber" placeholder="Credit Card Number"/>
-      <div id="half-input-container">
-        <input class="half-input" type="text" name="exp_date" placeholder="Exp Date"/>
-        <input class="half-input" id="cvc-input" type="text" name="cvc" placeholder="CVC"/>
+      <div class="input-container">
+        Cardholder Name:<br />
+        <input class="full-input" type="text" name="cardholder_name"/>
+        Card Number:<br />
+        <input class="full-input" type="text" name="cardnumber"/>
+        <span class="left-half-input">
+          Expiration Date:<br />
+          <input class="half-input" type="text" name="exp_date"/>
+        </span>
+        <span class="right-half-input">
+          CVC:<br />
+          <input class="half-input" id="cvc-input" type="text" name="cvc"/>
+        </span>
       </div>
-
       <input class="submit-button" type="button" value="Submit" />
     </form>
   </body>

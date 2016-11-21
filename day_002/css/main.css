@@ -1,3 +1,5 @@
+/*Basic Styling*/
+
 body {
   background-color: #4AB8EB;
   font-family: sans-serif;
@@ -10,6 +12,26 @@ input {
   border-radius: 4px;
   font-size: 1em;
 }
+
+.right-half-input {
+  float: right;
+}
+
+.left-half-input {
+  float: left
+}
+
+.full-input, .submit-button {
+  display: block;
+}
+
+.full-input {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Checkout Styling*/
 
 #credit-card-container {
   background-color: white;
@@ -30,28 +52,8 @@ input {
   padding-left: 1em;
 }
 
-.full-input, .submit-button {
-  display: block;
-}
-
-.full-input {
+.input-container {
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#half-input-container {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#cvc-input {
-  float: right;
-}
-
-.half-input {
-  width: 180px;
   margin-left: auto;
   margin-right: auto;
 }
